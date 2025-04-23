@@ -16,7 +16,6 @@ class SimpleAIAgent:
                 return self.knowledge_base[key]
         return "I'm not sure how to respond to that."
 
-# Example usage
 if __name__ == "__main__":
     agent = SimpleAIAgent("HelperBot")
     while True:
